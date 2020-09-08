@@ -59,7 +59,15 @@ nav,
 section {
     display: block
 }
-
+thead > tr > th{
+    font-size: larger !important;
+}
+tbody > tr > td,tbody > tr > th{
+    font-size: large !important;
+}
+thead > tr > th{
+    color:#EFF2F7 !important;
+}
 body {
     margin: 0;
     font-family: "Nunito Sans", sans-serif;
@@ -5216,7 +5224,7 @@ input[type=submit].btn-block {
     background-color: #fff;
     background-clip: border-box;
     border: 1px solid #eff2f7;
-    border-radius: .75rem
+    border-radius: 1rem
 }
 
 .card>hr {
