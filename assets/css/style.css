@@ -103,6 +103,9 @@ p {
     margin-top: 0;
     margin-bottom: 1rem
 }
+.batt{
+    margin:0 40% 0;
+}
 
 abbr[data-original-title],
 abbr[title] {
@@ -4705,7 +4708,9 @@ input[type=submit].btn-block {
     pointer-events: none;
     cursor: default
 }
-
+.navi-tabs{
+    border-bottom: 0px !important;
+}
 .nav-tabs {
     border-bottom: 1px solid #e2e8f0
 }

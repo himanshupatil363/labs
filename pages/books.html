@@ -12,7 +12,7 @@
 </head>
 
 <body>
-    <header class="" id=header-main>
+     <header class="" id=header-main>
         <nav class="navbar navbar-main navbar-expand-lg navbar-light" id=navbar-main>
             <div class=container>
                 <a class=navbar-brand href=#> <img alt="Image placeholder" src="/assets/img/brand/p_logo.png"
@@ -24,15 +24,13 @@
                             data-target=#navbar-main-collapse aria-controls=navbar-main-collapse aria-expanded=false
                             aria-label="Toggle navigation"><i data-feather=x></i></button></div>
                     <ul class="navbar-nav ml-lg-auto">
-                        <li class="nav-item nav-item-spaced d-none d-lg-block"><a class=nav-link
-                                href="/pages/index.html">Home </a></li>
-                        <li class="nav-item nav-item-spaced d-none d-lg-block"><a class=nav-link href=#>Books</a></li>
-                        <li class="nav-item nav-item-spaced d-none d-lg-block"><a class=nav-link href=#>Feedback</a>
+                        <li class="nav-item nav-item-spaced d-none d-lg-block"><a class=nav-link href="/pages/index.html">Home </a></li>
+                        <li class="nav-item nav-item-spaced d-none d-lg-block"><a class=nav-link href="/pages/books.html">Books</a></li>
+                        <li class="nav-item nav-item-spaced d-none d-lg-block"><a class=nav-link href="/pages/support.html">Support</a>
                         </li>
-                        <li class="nav-item nav-item-spaced d-none d-lg-block"><a class=nav-link href=#>My books</a>
+                        <li class="nav-item nav-item-spaced d-none d-lg-block"><a class=nav-link href="/pages/mybooks.html">My books</a>
                         </li>
-                        <li class="nav-item nav-item-spaced d-none d-lg-block"><a class=nav-link
-                                href="/pages/faq.html">FAQ's</a></li>
+                        <li class="nav-item nav-item-spaced d-none d-lg-block"><a class=nav-link href="/pages/faq.html">FAQ's</a></li>
                     </ul>
                     <ul class="navbar-nav align-items-lg-center d-none d-lg-flex ml-lg-auto">
                         <li class="nav-item nav-item-spaced dropdown dropdown-animate" data-toggle=hover>
@@ -58,9 +56,10 @@
                             </div>
                         </li>
                         <li class="nav-item nav-item-spaced dropdown dropdown-animate" data-toggle=hover>
-                            <a class="btn btn-sm btn-primary btn-icon ml-3" href=# role=button data-toggle=dropdown
-                                aria-haspopup=true aria-expanded=false><span class=btn-inner--icon><i
-                                        data-feather=award></i></span> <span class=btn-inner--text>Register</span></a>
+                            <a class="btn btn-sm btn-primary btn-icon ml-3" href=# role=button data-toggle=dropdown aria-haspopup=true
+                                aria-expanded=false><span
+                                    class=btn-inner--icon><i data-feather=award></i></span> <span
+                                    class=btn-inner--text>Register</span></a>
                             <div class="dropdown-menu dropdown-menu-md p-0">
                                 <ul class="list-group list-group-flush px-lg-4">
                                     <li class="dropdown dropdown-animate">
@@ -82,7 +81,6 @@
                         </li>
                     </ul>
                 </div>
-            </div>
         </nav>
     </header>
     <section class="slice slice-lg py-7 py-lg-8 bg-cover bg-size--cover"
@@ -365,106 +363,35 @@
 
             </div>
             <div class="row mt-5 pt-5 justify-content-center">
-                <div class=col-lg-12>
+                <div class=col-lg-8>
                     <div class="row align-items-center">
                         <div class=col-lg-7>
-                            <h3 class="text mb-2">Want to remove or add book??</h3>
+                            <h3 class="text mb-2">Want to add or remove book?</h3>
                         </div>
                         <div class="col-lg-5 text-lg-right mt-4 mt-lg-0">
-                            <a href=# class="btn btn-dark btn-icon my-2" target=_blank>Add Book</a>
-                            <a href=# class="btn btn-secondary my-2 ml-0 ml-sm-3" target=_blank>Remove Book</a>
+                            <a href="/pages/update.html" class="btn btn-dark my-2 ml-0 ml-sm-3" target=_blank>Update Books</a>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <footer class=position-relative id=footer-main>
-        <div class="footer pt-lg-7 footer-dark bg-dark">
+     <footer class=position-relative id=footer-main>
+        <div class="footer footer-dark bg-dark">
             <div class="shape-container shape-line shape-position-top shape-orientation-inverse">
                 <svg width=2560px height=100px xmlns=http://www.w3.org/2000/svg xmlns:xlink=http://www.w3.org/1999/xlink
                     preserveAspectRatio=none x=0px y=0px viewBox="0 0 2560 100"
-                    style="enable-background:new 0 0 2560 100" xml:space=preserve class="">
+                    style="enable-background:new 0 0 2560 100" xml:space=preserve class=fill-section-secondary>
                     <polygon points="2560 0 2560 100 0 100"></polygon>
                 </svg>
             </div>
-            <div class="container pt-4">
-                <div class="row justify-content-center">
-                    <div class=col-lg-12>
-                        <div class="row align-items-center">
-                            <div class=col-lg-7>
-                                <h3 class="text-secondary mb-2">Brilliant solutions for your ideas</h3>
-                                <p class="lead mb-0 text-white opacity-8">Build modern looking websites fast and easy
-                                    using Quick.</p>
-                            </div>
-                            <div class="col-lg-5 text-lg-right mt-4 mt-lg-0"><a href=../../docs/index.html
-                                    class="btn btn-white btn-icon my-2" target=_blank><span class=btn-inner--icon><i
-                                            data-feather=book class=text-primary></i> </span><span
-                                        class=btn-inner--text>Documentation</span> </a><a
-                                    href=https://themes.getbootstrap.com/product/quick-website-ui-kit-2/
-                                    class="btn btn-primary my-2 ml-0 ml-sm-3" target=_blank>Purchase now</a></div>
+            <hr class="divider divider-fade divider-dark">
+            <div class="container">
+                <div class="row justify-content-center pb-3">
+                        <div class="copyright text-sm font-weight-bold text-center">&copy; 2020 <a
+                                class=font-weight-bold target=_blank>Libs.</a> All
+                            rights reserved
                         </div>
-                    </div>
-                </div>
-                <hr class="divider divider-fade divider-dark my-5">
-                <div class=row>
-                    <div class="col-lg-4 mb-5 mb-lg-0">
-                        <a href=../../index-2.html> <img alt="Image placeholder" src=../../assets/img/brand/light.svg
-                            id=footer-logo></a>
-                        <p class="mt-4 text-sm opacity-8 pr-lg-4">Webpixels attempts to bring the best development
-                            experience to designers and developers by offering the tools needed for having a quick and
-                            solid start in most web projects.</p>
-                        <ul class="nav mt-4">
-                            <li class=nav-item><a class="nav-link pl-0" href=https://dribbble.com/webpixels
-                                    target=_blank><i class="fab fa-dribbble"></i></a></li>
-                            <li class=nav-item><a class=nav-link href=https://github.com/webpixels target=_blank><i
-                                        class="fab fa-github"></i></a></li>
-                            <li class=nav-item><a class=nav-link href=https://www.instagram.com/webpixelsofficial
-                                    target=_blank><i class="fab fa-instagram"></i></a></li>
-                            <li class=nav-item><a class=nav-link href=https://www.facebook.com/webpixels
-                                    target=_blank><i class="fab fa-facebook"></i></a></li>
-                        </ul>
-                    </div>
-                    <div class="col-lg-2 col-6 col-sm-4 ml-lg-auto mb-5 mb-lg-0">
-                        <h6 class="heading mb-3">Account</h6>
-                        <ul class=list-unstyled>
-                            <li><a href=#>Profile</a></li>
-                            <li><a href=#>Settings</a></li>
-                            <li><a href=#>Billing</a></li>
-                            <li><a href=#>Notifications</a></li>
-                        </ul>
-                    </div>
-                    <div class="col-lg-2 col-6 col-sm-4 mb-5 mb-lg-0">
-                        <h6 class="heading mb-3">About</h6>
-                        <ul class=list-unstyled>
-                            <li><a href=#>Services</a></li>
-                            <li><a href=#>Pricing</a></li>
-                            <li><a href=#>Contact</a></li>
-                            <li><a href=#>Careers</a></li>
-                        </ul>
-                    </div>
-                    <div class="col-lg-2 col-6 col-sm-4 mb-5 mb-lg-0">
-                        <h6 class="heading mb-3">Company</h6>
-                        <ul class=list-unstyled>
-                            <li><a href=#>Community</a></li>
-                            <li><a href=#>Help center</a></li>
-                            <li><a href=#>Support</a></li>
-                        </ul>
-                    </div>
-                </div>
-                <hr class="divider divider-fade divider-dark my-4">
-                <div class="row align-items-center justify-content-md-between pb-4">
-                    <div class=col-md-6>
-                        <div class="copyright text-sm font-weight-bold text-center text-md-left">&copy; 2020 <a
-                                href=https://webpixels.io/ class=font-weight-bold target=_blank>Webpixels</a>. All
-                            rights reserved</div>
-                    </div>
-                    <div class=col-md-6>
-                        <ul class="nav justify-content-center justify-content-md-end mt-3 mt-md-0">
-                            <li class=nav-item><a class=nav-link href=#>Terms</a></li>
-                            <li class=nav-item><a class=nav-link href=#>Privacy</a></li>
-                            <li class=nav-item><a class=nav-link href=#>Cookies</a></li>
-                        </ul>
                     </div>
                 </div>
             </div>
