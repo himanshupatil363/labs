@@ -12,32 +12,36 @@
 </head>
 
 <body>
-    <header class="" id=header-main>
+    <header id=header-main>
         <nav class="navbar navbar-main navbar-expand-lg navbar-light" id=navbar-main>
             <div class=container>
-                <a class=navbar-brand href=#> <img alt="Image placeholder" src="/assets/img/brand/p_logo.png"
-                        id=navbar-logo> </a><button class=navbar-toggler type=button data-toggle=collapse
-                    data-target=#navbar-main-collapse aria-controls=navbar-main-collapse aria-expanded=false
-                    aria-label="Toggle navigation"><span class=navbar-toggler-icon></span></button>
+                <a class=navbar-brand>
+                    <img alt="Image placeholder" src="/assets/img/brand/p_logo.png" id=navbar-logo>
+                </a>
+                <button class=navbar-toggler type=button data-toggle=collapse data-target=#navbar-main-collapse
+                    aria-controls=navbar-main-collapse aria-expanded=false aria-label="Toggle navigation">
+                    <span class=navbar-toggler-icon></span>
+                </button>
                 <div class="collapse navbar-collapse navbar-collapse-overlay" id=navbar-main-collapse>
-                    <div class=position-relative><button class=navbar-toggler type=button data-toggle=collapse
-                            data-target=#navbar-main-collapse aria-controls=navbar-main-collapse aria-expanded=false
-                            aria-label="Toggle navigation"><i data-feather=x></i></button></div>
+                    <div class=position-relative>
+                        <button class=navbar-toggler type=button data-toggle=collapse data-target=#navbar-main-collapse
+                            aria-controls=navbar-main-collapse aria-expanded=false aria-label="Toggle navigation"><i
+                                data-feather=x></i>
+                        </button>
+                    </div>
                     <ul class="navbar-nav ml-lg-auto">
-                        <li class="nav-item nav-item-spaced d-none d-lg-block"><a class=nav-link
-                                href="/pages/index.html">Home
-                            </a></li>
-                        <li class="nav-item nav-item-spaced d-none d-lg-block"><a class=nav-link
+                        <li class="nav-item nav-item-spaced dropdown dropdown-animate"><a class=nav-link
+                                href="/pages/index.html">Home </a></li>
+                        <li class="nav-item nav-item-spaced dropdown dropdown-animate"><a class=nav-link
                                 href="/pages/books.html">Books</a></li>
-                        <li class="nav-item nav-item-spaced d-none d-lg-block"><a class=nav-link
-                                href="/pages/support.html">Support</a>
+                        <li class="nav-item nav-item-spaced dropdown dropdown-animate"><a class=nav-link
+                                href="/pages/record.html">Record</a>
                         </li>
-                        <li class="nav-item nav-item-spaced d-none d-lg-block"><a class=nav-link
-                                href="/pages/mybooks.html">My
-                                books</a>
+                        <li class="nav-item nav-item-spaced dropdown dropdown-animate"><a class=nav-link
+                                href="/pages/feedback.html">Feedback</a>
                         </li>
-                        <li class="nav-item nav-item-spaced d-none d-lg-block"><a class=nav-link
-                                href="/pages/faq.html">FAQ's</a></li>
+                        <li class="nav-item nav-item-spaced dropdown dropdown-animate"><a class=nav-link
+                                href="/pages/admin.html">Admin</a></li>
                     </ul>
                     <ul class="navbar-nav align-items-lg-center d-none d-lg-flex ml-lg-auto">
                         <li class="nav-item nav-item-spaced dropdown dropdown-animate" data-toggle=hover>
@@ -63,7 +67,7 @@
                             </div>
                         </li>
                         <li class="nav-item nav-item-spaced dropdown dropdown-animate" data-toggle=hover>
-                            <a class="btn btn-sm btn-primary btn-icon ml-3" href=# role=button data-toggle=dropdown
+                            <a class="btn btn-sm btn-dark btn-icon ml-3" href=# role=button data-toggle=dropdown
                                 aria-haspopup=true aria-expanded=false><span class=btn-inner--icon><i
                                         data-feather=award></i></span> <span class=btn-inner--text>Register</span></a>
                             <div class="dropdown-menu dropdown-menu-md p-0">
@@ -86,7 +90,32 @@
                             </div>
                         </li>
                     </ul>
+                    <div class="d-lg-none p-2 text-center">
+                        <a href="/pages/s_login.html"
+                            class="btn btn-block btn-sm btn-secondary" target=_blank>
+                            login as student
+                        </a>
+                    </div>
+                    <div class="d-lg-none p-2 text-center">
+                        <a href="/pages/s_register.html"
+                            class="btn btn-block btn-sm btn-primary" target=_blank>
+                            register as student
+                        </a>
+                    </div>
+                    <div class="d-lg-none p-2 text-center">
+                        <a href="/pages/a_login.html"
+                            class="btn btn-block btn-sm btn-secondary" target=_blank>
+                            login as admin
+                        </a>
+                    </div>
+                    <div class="d-lg-none p-2 text-center">
+                        <a href="/pages/a_register.html"
+                            class="btn btn-block btn-sm btn-primary" target=_blank>
+                            register as admin
+                        </a>
+                    </div>
                 </div>
+            </div>
         </nav>
     </header>
     <div class="pt-3 slice slice-sm bg-section-secondary">
